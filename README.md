@@ -14,12 +14,12 @@ The implemented firmware performs **angle balancing only**. It does not read whe
 
 | Component | Identified specification |
 |---|---|
-| Microcontroller | ESP32-S3-WROOM-1 module; exact carrier/development-board model TODO |
+| Microcontroller | ESP32-S3-WROOM-1 module |
 | IMU | MPU6050, I²C address `0x68` |
-| Motor driver | DRV8833 dual H-bridge breakout; exact board/revision TODO |
-| Motors | Two N20 DC geared motors, 12 V, 300 RPM (author-reported) |
-| Motor stall current | 0.3 A reported; confirm this is per motor and specified at 12 V |
-| Battery | 2S LiPo; battery positive reported connected directly to the DRV8833 motor-supply terminal; exact pack details TODO |
+| Motor driver | DRV8833 dual H-bridge breakout |
+| Motors | Two N20 DC geared motors, 12 V, 300 RPM  |
+| Motor stall current | 0.3 A reported specs from Robu  |
+| Battery | 2S LiPo; battery positive reported connected directly to the DRV8833 motor-supply terminal; |
 | CAD | Autodesk Fusion |
 
 ### ESP32 pin assignments from the firmware

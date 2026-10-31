@@ -1,0 +1,18 @@
+# Temporary / OS files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Arduino build output / editor metadata
+build/
+*.elf
+*.map
+.vscode/
+
+# PlatformIO (if used later)
+.pio/
+
+# Private local configuration (ensure secrets are not hard-coded in source)
+secrets.h
+credentials.h

@@ -1,6 +1,6 @@
 # ESP32 Self-Balancing Robot
 
-A two-wheeled, angle-balancing robot using an **ESP32-S3-WROOM-1 module**, an **MPU6050 IMU**, a **DRV8833 dual H-bridge motor-driver breakout**, **two 12 V, 300 RPM N20 DC geared motors**, and a **2S LiPo battery**. The firmware uses a two-state Kalman filter to estimate pitch angle and gyro bias, followed by a PID angle controller. The mechanical design was created in **Autodesk Fusion**.
+A two-wheeled, balancing robot using an **ESP32-S3-WROOM-1 module**, an **MPU6050 IMU**, a **DRV8833 dual H-bridge motor-driver breakout**, **two 12 V, 300 RPM N20 DC geared motors**, and a **2S LiPo battery**. The firmware uses a two-state Kalman filter to estimate pitch angle and gyro bias, followed by a PID angle controller. The mechanical design was created in **Autodesk Fusion**.
 
 > **Documentation status:** This README has been checked against the supplied Arduino sketch and the wiring details reported by the project author. The reported battery-to-driver and motor-output connections are recorded below. The exact carrier/development-board model, exact DRV8833 breakout model/revision, the breakout's onboard `nSLEEP` pull-up implementation, the exact silkscreen spelling of the motor-supply terminal (reported as `ULT`, interpreted as `VM`/motor supply), N20 motor manufacturer/gear ratio, the basis of the reported 0.3 A stall current, battery capacity/discharge rating, and ESP32/MPU6050 power-regulation details still need verification.
 

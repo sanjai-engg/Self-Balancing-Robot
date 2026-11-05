@@ -21,7 +21,7 @@
 | SDA | GPIO 8 | `Wire.begin(8, 9)` |
 | SCL | GPIO 9 | I²C clock configured to 400 kHz |
 | I²C address | `0x68` | Firmware uses this fixed address |
-| VCC | TODO | Check the exact breakout's input-voltage requirements; do not infer from the bare IC alone |
+| VCC | Not specified in the available build record | Check the exact breakout's input-voltage requirements; do not infer from the bare IC alone |
 | GND | Common ground required | Confirm connection to ESP32/driver ground |
 | INT | Not used in sketch | No interrupt pin is configured |
 
@@ -132,10 +132,10 @@ Do not power the motors from the ESP32 3.3 V pin. Disconnect the battery before 
 - Rated voltage: 12 V (author-reported).
 - Speed: 300 RPM (author-reported; confirm whether no-load gearbox output speed).
 - Stall current: 0.3 A reported; confirm per motor at 12 V.
-- Manufacturer/model and gear ratio: TODO.
-- Wheel diameter/width/material: TODO.
-- Chassis material/dimensions and fasteners: TODO.
-- Sensor mounting orientation and position: TODO.
+- Manufacturer/model and gear ratio: Not specified in the available build record.
+- Wheel diameter/width/material: Not specified in the available build record.
+- Chassis material/dimensions and fasteners: Not specified in the available build record.
+- Sensor mounting orientation and position: Not specified in the available build record.
 
 ## 10. Wiring diagram and photographs
 

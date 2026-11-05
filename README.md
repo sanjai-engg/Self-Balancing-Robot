@@ -84,14 +84,11 @@ Self-Balancing-Robot/
 │   └── PID_Control_Lab/
 │       └── PID_Control_Lab.ino
 ├── Hardware/
-│   ├── PINOUT.md
-│   └── BILL_OF_MATERIALS.md
+│   ├── BILL_OF_MATERIALS.md
+│   └── PINOUT.md
 ├── CAD/
-│   ├── Source-Files/       # Native Autodesk Fusion files
-│   └── Exports/            # STEP/STL and other exports
-├── Media/
-│   ├── Photos/
-│   └── Videos/
+│   └── Exports/
+│       └── Configuration 1.step
 └── Documentation/
     ├── HARDWARE_AND_WIRING.md
     ├── POWER_COMPATIBILITY.md

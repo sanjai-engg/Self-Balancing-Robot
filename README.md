@@ -60,9 +60,19 @@ For the detailed wiring status, electrical checks and cautions, see [Hardware an
 - **Controller:** single PID loop; derivative-on-measurement is enabled by default and uses gyro rate
 - **Control task:** pinned to ESP32 core 1, nominal 100 Hz; fixed `DT = 0.01 s`
 - **Motor output:** four LEDC PWM outputs, 20 kHz and 8-bit resolution
-- **Monitoring/tuning:** Wi-Fi soft access point, browser dashboard, and USB serial command/telemetry interface
+- **Monitoring/tuning:** ESP32-hosted local Wi-Fi dashboard and USB serial command/telemetry interface
 
 See [Control System](Documentation/CONTROL_SYSTEM.md) for implementation details extracted from the sketch.
+
+## Local Wi-Fi tuning dashboard
+
+The ESP32 hosts its own local web dashboard. Connect a phone, tablet, or laptop to the robot's Wi-Fi access point (**SSID:** `PID-Lab`; no password is configured in the current firmware), then open **http://192.168.4.1** in a browser. No router or internet connection is required.
+
+The dashboard provides live sensor and controller telemetry, start/stop and upright-zero controls, sensor-orientation checks, motor deadband testing, live PID gain adjustment, controller-option switches, step-response measurements, and oscillation / Ziegler–Nichols tuning helpers. The dashboard's HTML, CSS, and JavaScript are embedded in the Arduino sketch and served directly by the ESP32; it is not a separately hosted cloud website.
+
+**Security note:** the current access point is open and the dashboard has no authentication. Anyone who joins the network can send motor-control requests. Use it only in a controlled test environment. The current firmware also needs safer motor-stop handling for IMU read failures before it can be considered fail-safe.
+
+See [Local Wi-Fi Tuning Dashboard](Documentation/WEB_DASHBOARD.md) for connection instructions, detailed features, persistence behaviour, and safety limitations.
 
 ## Repository layout
 
@@ -89,7 +99,8 @@ Self-Balancing-Robot/
     ├── FIRMWARE_REVIEW.md
     ├── CAD_AND_ASSEMBLY.md
     ├── TESTING_AND_RESULTS.md
-    └── UPLOAD_CHECKLIST.md
+    ├── UPLOAD_CHECKLIST.md
+    └── WEB_DASHBOARD.md
 ```
 
 ## Mechanical design

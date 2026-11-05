@@ -132,6 +132,12 @@ The source contains a comment reporting one run with the reference tune (`Kp = 1
 
 See [Firmware Review](Documentation/FIRMWARE_REVIEW.md) and [Hardware and Wiring](Documentation/HARDWARE_AND_WIRING.md).
 
+## AI assistance and acknowledgements
+
+Large language models (LLMs), including ChatGPT, were used as supporting tools during preparation of this repository. Their assistance included drafting and refining documentation, explaining firmware and control-system concepts, reviewing portions of the existing firmware for potential issues, and improving repository organisation and presentation.
+
+LLM assistance was not a substitute for physical engineering work or experimental validation: the models did not assemble, operate, or physically test the robot and did not generate experimental measurements. Technical suggestions and hardware-specific claims should be checked against component datasheets, the actual source code, and bench testing. The project author remains responsible for the final design decisions, implementation, verification, and claims made about the robot.
+
 ## License
 
 **TODO:** Choose a license deliberately. Firmware, CAD files, photos, and documentation may have different reuse terms. Until a license is added, do not imply that reuse or redistribution is permitted.

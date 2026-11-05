@@ -99,13 +99,14 @@ Self-Balancing-Robot/
     ├── FIRMWARE_REVIEW.md
     ├── CAD_AND_ASSEMBLY.md
     ├── TESTING_AND_RESULTS.md
-    ├── UPLOAD_CHECKLIST.md
     └── WEB_DASHBOARD.md
 ```
 
 ## Mechanical design
 
-The mechanical design was created in **Autodesk Fusion**. Add the editable Fusion project/design files to `CAD/Source-Files/` and suitable STEP/STL exports to `CAD/Exports/`. Add assembly photographs to `Media/Photos/`. The current information does not establish the chassis material/dimensions, wheel dimensions, gear ratio, motor manufacturer, or fastener specifications.
+The mechanical design was created in **Autodesk Fusion**. This repository currently includes the neutral STEP model at [`CAD/Exports/Configuration 1.step`](CAD/Exports/Configuration%201.step). The STEP export can be inspected in compatible CAD software, but it does not preserve the native Fusion parametric feature history. Verified chassis dimensions, material, wheel dimensions, gear ratio, and fastener specifications are not included in the current project record.
+
+Actual robot photographs and a wiring diagram are the remaining visual additions planned for the repository.
 
 See [CAD and Assembly](Documentation/CAD_AND_ASSEMBLY.md).
 
@@ -140,8 +141,8 @@ LLM assistance was not a substitute for physical engineering work or experimenta
 
 ## License
 
-**TODO:** Choose a license deliberately. Firmware, CAD files, photos, and documentation may have different reuse terms. Until a license is added, do not imply that reuse or redistribution is permitted.
+No open-source license is currently provided. Do not assume permission to reuse, modify, or redistribute the firmware, CAD files, photographs, or documentation.
 
-## Author
+## Repository
 
-**TODO:** Add author name, project date, and optional profile/contact links.
+Maintained in the GitHub account [@sanjai-engg](https://github.com/sanjai-engg).

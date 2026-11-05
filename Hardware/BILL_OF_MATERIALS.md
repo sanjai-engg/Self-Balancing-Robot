@@ -1,17 +1,17 @@
 # Bill of Materials (BOM)
 
-This working BOM is based on the supplied firmware and author-confirmed physical hardware. Items marked TODO must be filled from the actual parts or their datasheets.
+This bill of materials is based on the supplied firmware and author-confirmed physical hardware. Where an exact part or rating has not been identified, that limitation is stated explicitly.
 
 | Qty | Item | Identified specification | Remaining details |
 |---:|---|---|---|
-| 1 | Controller module | ESP32-S3-WROOM-1 | Carrier/development-board model and revision: TODO |
-| 1 | IMU breakout | MPU6050 | Breakout model and supply voltage: TODO |
-| 1 | Dual H-bridge motor driver | DRV8833 breakout | Manufacturer/model/revision, IC package, thermal design and onboard `nSLEEP` pull-up: TODO |
+| 1 | Controller module | ESP32-S3-WROOM-1 | Carrier/development-board model and revision: Not identified in the available build record |
+| 1 | IMU breakout | MPU6050 | Breakout model and supply voltage: Not identified in the available build record |
+| 1 | Dual H-bridge motor driver | DRV8833 breakout | Manufacturer/model/revision, IC package, thermal design and onboard `nSLEEP` pull-up: Not identified in the available build record |
 | 2 | Geared DC motor | N20, 12 V, 300 RPM | Manufacturer, gear ratio; 0.3 A stall current reported—confirm per motor at 12 V |
-| 2 | Wheel | Two-wheel differential drive | Diameter, width, material and hub: TODO |
-| 1 | Battery | 2S LiPo; usually 7.4 V nominal and 8.4 V fully charged for standard LiPo chemistry | Exact model, capacity, discharge rating and chemistry: TODO |
-| 1 | Chassis | Autodesk Fusion design | Material, dimensions and fabrication method: TODO |
-| — | Wiring and connectors | As built | Wire gauge, connectors, switch, fuse and power distribution: TODO |
+| 2 | Wheel | Two-wheel differential drive | Diameter, width, material and hub: Not identified in the available build record |
+| 1 | Battery | 2S LiPo; usually 7.4 V nominal and 8.4 V fully charged for standard LiPo chemistry | Exact model, capacity, discharge rating and chemistry: Not identified in the available build record |
+| 1 | Chassis | Autodesk Fusion design | Material, dimensions and fabrication method: Not identified in the available build record |
+| — | Wiring and connectors | As built | Wire gauge, connectors, switch, fuse and power distribution: Not identified in the available build record |
 
 ## Author-reported wiring
 

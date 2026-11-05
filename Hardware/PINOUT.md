@@ -45,10 +45,6 @@ Reference: [TI DRV8833 datasheet](https://www.ti.com/lit/ds/symlink/drv8833.pdf)
 GPIO4–GPIO9 are GPIO-capable on the ESP32-S3-WROOM-1 module, so the assignments above are compatible at the module level. Verify the exact carrier/development board brings these pins out and does not use them for onboard functions. GPIO8/GPIO9 should not simultaneously be assigned to SPI while used for I²C.
 
 - Module: ESP32-S3-WROOM-1 (author-confirmed)
-- Carrier/development-board model: TODO
-- Physical check date: TODO
-- Exact DRV8833 breakout board/revision: TODO
-- Onboard `nSLEEP` pull-up verified by schematic or measurement: TODO
-- GPIO4–GPIO7 input wire mapping physically verified: TODO
+The exact carrier/development-board model and DRV8833 breakout revision have not been recorded. The onboard `nSLEEP` pull-up and the physical GPIO4–GPIO7 to AIN1/AIN2/BIN1/BIN2 input mapping have not been independently verified. Confirm these items against the actual boards and wiring before treating this pinout as a verified as-built schematic.
 
 References: [Espressif ESP32-S3-WROOM-1 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf); [ESP32-S3-DevKitC-1 pin table](https://documentation.espressif.com/api/resource/path/docs/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html).

@@ -80,7 +80,8 @@ Self-Balancing-Robot/
 │   ├── Source-Files/       # Native Autodesk Fusion files
 │   └── Exports/            # STEP/STL and other exports
 ├── Media/
-│   └── Photos/
+│   ├── Photos/
+│   └── Videos/
 └── Documentation/
     ├── HARDWARE_AND_WIRING.md
     ├── POWER_COMPATIBILITY.md
@@ -99,7 +100,9 @@ See [CAD and Assembly](Documentation/CAD_AND_ASSEMBLY.md).
 
 ## Demonstration
 
-**TODO:** Add a link to a demonstration video. A hosted video link is generally preferable to committing a large video file directly to Git.
+The demonstration video(s) are hosted on Google Drive: [View the demonstration video folder](https://drive.google.com/drive/folders/19-8n9uB3Dbg2v-mdvbrSrAb6iVnlBuZ5?usp=sharing).
+
+If access is denied, check that the folder's General access is set to **Anyone with the link — Viewer**.
 
 ## Results
 
